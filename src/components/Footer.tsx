@@ -5,14 +5,28 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           {/* LoadRecover Brand */}
           <div className="md:col-span-1">
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
-                  <path d="M3 4a1 1 0 00-1 1v1a1 1 0 001 1h1a1 1 0 001-1V5a1 1 0 00-1-1H3zM3 10a1 1 0 00-1 1v1a1 1 0 001 1h1a1 1 0 001-1v-1a1 1 0 00-1-1H3zM3 16a1 1 0 00-1 1v1a1 1 0 001 1h1a1 1 0 001-1v-1a1 1 0 00-1-1H3zM7 4a1 1 0 00-1 1v1a1 1 0 001 1h10a1 1 0 001-1V5a1 1 0 00-1-1H7zM7 10a1 1 0 00-1 1v1a1 1 0 001 1h10a1 1 0 001-1v-1a1 1 0 00-1-1H7zM7 16a1 1 0 00-1 1v1a1 1 0 001 1h10a1 1 0 001-1v-1a1 1 0 00-1-1H7z" />
+            <div className="flex items-center space-x-3 mb-6">
+              <div className="flex items-center">
+                {/* Truck Logo */}
+                <svg className="w-10 h-8" viewBox="0 0 48 32" fill="none">
+                  {/* Truck Cab */}
+                  <rect x="2" y="8" width="12" height="16" rx="2" fill="#FF6B35" />
+                  {/* Truck Trailer */}
+                  <rect x="16" y="6" width="28" height="18" rx="2" fill="#FF6B35" />
+                  {/* Truck Wheels */}
+                  <circle cx="8" cy="26" r="3" fill="#FF6B35" />
+                  <circle cx="38" cy="26" r="3" fill="#FF6B35" />
+                  {/* Wheel Details */}
+                  <circle cx="8" cy="26" r="1.5" fill="white" />
+                  <circle cx="38" cy="26" r="1.5" fill="white" />
+                  {/* Cab Window */}
+                  <rect x="4" y="10" width="8" height="6" rx="1" fill="white" />
                 </svg>
               </div>
-              <span className="text-xl font-bold">LoadRecover</span>
+              <div>
+                <span className="text-xl font-bold text-white">Load</span>
+                <span className="text-xl font-bold text-orange-500">Recover</span>
+              </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               The #1 freight recovery marketplace connecting companies with verified drivers nationwide. 
