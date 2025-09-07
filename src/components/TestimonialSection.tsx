@@ -14,7 +14,7 @@ export function TestimonialSection() {
 
           {/* Main Testimonial */}
           <blockquote className="text-2xl md:text-3xl font-medium text-gray-900 mb-8 leading-relaxed">
-            "LoadRecover saved us over $2M in delayed freight costs last year. When our driver had a medical emergency in Kansas, they had a replacement driver there within 3 hours. Absolutely incredible service."
+            &ldquo;LoadRecover saved us over $2M in delayed freight costs last year. When our driver had a medical emergency in Kansas, they had a replacement driver there within 3 hours. Absolutely incredible service.&rdquo;
           </blockquote>
 
           {/* Author */}
@@ -63,7 +63,7 @@ export function TestimonialSection() {
                 ))}
               </div>
               <p className="text-gray-700 mb-4">
-                "Fast response time and professional drivers. LoadRecover has become our go-to solution for any freight emergencies."
+                &ldquo;Fast response time and professional drivers. LoadRecover has become our go-to solution for any freight emergencies.&rdquo;
               </p>
               <div className="text-sm">
                 <div className="font-semibold">Mike Chen</div>
@@ -80,7 +80,7 @@ export function TestimonialSection() {
                 ))}
               </div>
               <p className="text-gray-700 mb-4">
-                "The transparency and real-time tracking gives us complete confidence. Worth every penny for the peace of mind."
+                &ldquo;The transparency and real-time tracking gives us complete confidence. Worth every penny for the peace of mind.&rdquo;
               </p>
               <div className="text-sm">
                 <div className="font-semibold">Jessica Torres</div>
