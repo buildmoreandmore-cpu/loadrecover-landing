@@ -16,25 +16,25 @@ export function DriverBanner() {
             {/* Driver Benefits */}
             <div className="space-y-4 mb-8">
               <div className="flex items-center space-x-3">
-                <svg className="w-6 h-6 text-orange-200" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span className="text-lg">Earn $2,500-$5,000+ per week</span>
               </div>
               <div className="flex items-center space-x-3">
-                <svg className="w-6 h-6 text-orange-200" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span className="text-lg">Instant payment to your debit card</span>
               </div>
               <div className="flex items-center space-x-3">
-                <svg className="w-6 h-6 text-orange-200" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span className="text-lg">Choose your own schedule & routes</span>
               </div>
               <div className="flex items-center space-x-3">
-                <svg className="w-6 h-6 text-orange-200" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span className="text-lg">24/7 dispatch & roadside support</span>
@@ -68,7 +68,7 @@ export function DriverBanner() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-1">Higher Pay Rates</h4>
-                  <p className="text-orange-100 text-sm">Premium rates for urgent recovery loads - typically 20-40% above standard rates</p>
+                  <p className="text-white text-opacity-90 text-sm">Premium rates for urgent recovery loads - typically 20-40% above standard rates</p>
                 </div>
               </div>
 
@@ -80,7 +80,7 @@ export function DriverBanner() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-1">Flexible Schedule</h4>
-                  <p className="text-orange-100 text-sm">Work when you want, where you want. Accept loads that fit your schedule and location</p>
+                  <p className="text-white text-opacity-90 text-sm">Work when you want, where you want. Accept loads that fit your schedule and location</p>
                 </div>
               </div>
 
@@ -93,7 +93,7 @@ export function DriverBanner() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-1">Dedicated Support</h4>
-                  <p className="text-orange-100 text-sm">24/7 dispatch team, roadside assistance, and dedicated driver success managers</p>
+                  <p className="text-white text-opacity-90 text-sm">24/7 dispatch team, roadside assistance, and dedicated driver success managers</p>
                 </div>
               </div>
             </div>
@@ -102,11 +102,11 @@ export function DriverBanner() {
             <div className="grid grid-cols-2 gap-4 mt-8 pt-6 border-t border-orange-300 border-opacity-30">
               <div className="text-center">
                 <div className="text-2xl font-bold text-white">4.9/5</div>
-                <div className="text-orange-200 text-sm">Driver Rating</div>
+                <div className="text-white text-opacity-80 text-sm">Driver Rating</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-white">$4,200</div>
-                <div className="text-orange-200 text-sm">Avg Weekly Earnings</div>
+                <div className="text-white text-opacity-80 text-sm">Avg Weekly Earnings</div>
               </div>
             </div>
           </div>
