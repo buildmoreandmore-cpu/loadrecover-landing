@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LoadRecover Landing Page 🚚
+
+High-converting landing page for LoadRecover - a trucking marketplace that connects companies with verified drivers for freight recovery services.
+
+## Overview
+
+LoadRecover solves the critical problem of abandoned or delayed loads when truck drivers reach their Hours of Service (HOS) limits or abandon freight. The platform provides instant dispatch of qualified recovery drivers nationwide.
+
+## Design Features
+
+- **Conversion-Optimized**: Clean, bold design focused on maximizing company and driver sign-ups
+- **Mobile-First**: Responsive design optimized for drivers on the road
+- **Color Scheme**: Professional white background with dark blue sections and orange CTAs
+- **Sticky Floating CTA**: Always-visible action buttons for emergency recovery
+
+## Page Sections
+
+### 1. Hero Section
+- Compelling headline: "Recover Freight Fast — 24/7 Verified Drivers Ready Now"
+- Lead capture form with minimal fields (Email + Phone)
+- Social proof with trust logos
+- Key statistics (10K+ drivers, 24hr avg recovery, 98% success rate)
+
+### 2. Recovery Services
+Three service cards with individual CTAs:
+- Trucking Marketplace
+- Freight Recovery 
+- Logistics Services
+
+### 3. Testimonials
+- 5-star customer testimonials
+- Social proof numbers ($50M+ freight recovered)
+- Additional company testimonials
+
+### 4. Driver Recruitment Banner
+Orange-background section targeting drivers:
+- "Stop Driving Empty Miles. Start Earning More."
+- Driver benefits and earning potential
+- Dedicated sign-up CTA
+
+### 5. Footer & Floating CTAs
+- Comprehensive footer with services and contact info
+- Sticky floating CTA that appears on scroll
+- Emergency contact button for urgent situations
+
+## Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS
+- **TypeScript**: Full type safety
+- **Deployment**: Vercel
+- **Performance**: Optimized for mobile and fast loading
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the landing page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Conversion Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Multiple CTAs**: Every section includes conversion opportunities
+- **Urgency & Trust**: Emphasizes 24/7 availability and verified drivers
+- **Dual Audience**: Targets both companies needing recovery and drivers wanting work
+- **Mobile Optimization**: Sticky CTA and mobile-first design for drivers
+- **Social Proof**: Customer testimonials, company logos, and success metrics
 
-## Learn More
+## Contact
 
-To learn more about Next.js, take a look at the following resources:
+- Phone: 1-800-RECOVER
+- Emergency freight recovery available 24/7
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ for the trucking industry. Helping keep America's freight moving.
