@@ -17,8 +17,11 @@ export const metadata: Metadata = {
   description: "Connect with verified drivers for emergency freight recovery. 24/7 load recovery service when drivers hit HOS limits or abandon loads. Instant dispatch nationwide.",
   keywords: "freight recovery, trucking marketplace, HOS recovery, abandoned loads, truck drivers, logistics",
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
+    icon: [
+      { url: '/favicon.ico', sizes: '16x16', type: 'image/x-icon' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/favicon.ico',
     apple: '/favicon.svg',
   },
   openGraph: {
