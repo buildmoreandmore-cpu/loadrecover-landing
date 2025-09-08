@@ -55,8 +55,8 @@ export function DriverBanner() {
           </div>
 
           {/* Right Content - Stats/Features */}
-          <div className="bg-white bg-opacity-10 backdrop-blur rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-white mb-6">Why Drivers Choose LoadRecover</h3>
+          <div className="bg-white bg-opacity-95 backdrop-blur rounded-2xl p-8 shadow-lg">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Why Drivers Choose LoadRecover</h3>
             
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
@@ -67,8 +67,8 @@ export function DriverBanner() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-white mb-1">Higher Pay Rates</h4>
-                  <p className="text-white text-opacity-90 text-sm">Premium rates for urgent recovery loads - typically 20-40% above standard rates</p>
+                  <h4 className="font-semibold text-gray-900 mb-1">Higher Pay Rates</h4>
+                  <p className="text-gray-700 text-sm">Premium rates for urgent recovery loads - typically 20-40% above standard rates</p>
                 </div>
               </div>
 
@@ -79,8 +79,8 @@ export function DriverBanner() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-white mb-1">Flexible Schedule</h4>
-                  <p className="text-white text-opacity-90 text-sm">Work when you want, where you want. Accept loads that fit your schedule and location</p>
+                  <h4 className="font-semibold text-gray-900 mb-1">Flexible Schedule</h4>
+                  <p className="text-gray-700 text-sm">Work when you want, where you want. Accept loads that fit your schedule and location</p>
                 </div>
               </div>
 
@@ -92,8 +92,8 @@ export function DriverBanner() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-white mb-1">Dedicated Support</h4>
-                  <p className="text-white text-opacity-90 text-sm">24/7 dispatch team, roadside assistance, and dedicated driver success managers</p>
+                  <h4 className="font-semibold text-gray-900 mb-1">Dedicated Support</h4>
+                  <p className="text-gray-700 text-sm">24/7 dispatch team, roadside assistance, and dedicated driver success managers</p>
                 </div>
               </div>
             </div>
@@ -101,12 +101,12 @@ export function DriverBanner() {
             {/* Driver Stats */}
             <div className="grid grid-cols-2 gap-4 mt-8 pt-6 border-t border-orange-300 border-opacity-30">
               <div className="text-center">
-                <div className="text-2xl font-bold text-white">4.9/5</div>
-                <div className="text-white text-opacity-80 text-sm">Driver Rating</div>
+                <div className="text-2xl font-bold text-gray-900">4.9/5</div>
+                <div className="text-gray-600 text-sm">Driver Rating</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-white">$4,200</div>
-                <div className="text-white text-opacity-80 text-sm">Avg Weekly Earnings</div>
+                <div className="text-2xl font-bold text-gray-900">$4,200</div>
+                <div className="text-gray-600 text-sm">Avg Weekly Earnings</div>
               </div>
             </div>
           </div>
