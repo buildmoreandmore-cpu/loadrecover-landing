@@ -100,7 +100,7 @@ export function HeroSection() {
 
           {/* Right Column - Form */}
           <div className="bg-white rounded-2xl p-8 shadow-2xl">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Start Recovery in 60 Seconds</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Get LoadRecover Info Kit</h3>
             
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
@@ -129,7 +129,7 @@ export function HeroSection() {
                 type="submit"
                 className="w-full bg-orange-500 hover:bg-orange-600 text-white px-6 py-4 rounded-lg font-semibold text-lg transition-colors"
               >
-                See Live Demo
+                Get Info Packet
               </button>
             </form>
             
